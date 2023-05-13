@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='product.css'>
+</head>
+<body>
+    <h1 class="h">JV-Shop</h1>
+  <div id="flex">
+    <div id="selDiv"><select name="sel" id="sel">
+        <option selected disabled >Sort all products</option>
+        <option value="name">by name</option>
+        <option value="price">by price</option>
+    </select>
+    <button id="sort" class="sort">Sort</button></div>
+    <div id="help">
+        <p>* Add product to your basket for clicking Add to the basket.</p>
+        <p>* Check out yor purchase  bu clicking on Check out your purchase.</p>
+    </div>
+</div>
+
+    <div id="container"></div>
+    <button class="sort" id="check" onclick="check()">Check out your purchase</button>
+    <script src='script.js'></script>
+</body>
+</html>

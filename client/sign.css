@@ -1,0 +1,118 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#butId{
+    background-color: rgb(103, 178, 221);
+    margin-top: 10px;
+}
+.form-box {
+    max-width: 550px;
+    background: #f1f7fe;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+    margin-left: 30%;
+    margin-top: 2.5cm;
+  }
+  
+  .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+    
+  }
+  
+  /*Form text*/
+  .title {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 21px;
+    color: #666;
+  }
+  
+  /*Inputs box*/
+  .form-container {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 1rem 22px;
+    width: 90%;
+  }
+  
+  .input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: 17px;
+    padding: 10px 17px;
+  }
+  
+  .form-section {
+    padding: 16px;
+    font-size: 16px;
+    background-color: #e0ecfb;
+    box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+  }
+  
+  .form-section a {
+    font-weight: bold;
+    color: #0066ff;
+    transition: color .3s ease;
+  }
+  
+  .form-section a:hover {
+    color: #005ce6;
+    text-decoration: underline;
+  }
+  
+  /*Button*/
+  .submit {
+    background-color: #0066ff;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #005ce6;
+  }
+  #div{
+    
+    border: none;
+    border-radius: 6px;
+    width: 38%;
+    margin-left: 30%;
+    background-color: #42b72a;
+    line-height: 50.34px;
+
+    
+  }
+
+  #a2{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 20px;
+
+
+  }
+  #but{
+    margin-left: 16px;
+  }
